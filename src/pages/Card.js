@@ -39,7 +39,7 @@ export default function Card(props) {
       }
     });
   return (
-    <div className='md:max-w-xs lg:max-w-sm m-2 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+    <div className='md:max-w-xs max-h-96 h-auto lg:max-w-sm m-2 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
       <div>
         {imageUrl ? (
           <img className='rounded-t-lg' src={imageUrl} alt='' />
